@@ -75,7 +75,7 @@ function App() {
                         {
                             tasks.length > 0 ?
                                 (<Tasks tasks={tasks} onDelete={deleteTask} onEdit={editTask} />) :
-                                ('No Task Found!')
+                                ('No User Found!')
                         }
                     </div>
             }
